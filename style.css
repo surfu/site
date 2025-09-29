@@ -13,12 +13,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(134.53deg, rgba(251.32211303710938, 234.16456604003906, 182.6917724609375, 1) 41%,rgba(149.32212829589844, 139.12802124023438, 108.545654296875, 1) 100%);
+    background: linear-gradient(125deg,#FBEAB7,#958B6D,#8E806394);
 }
 .js{    
     justify-content: space-between;
     display: flex;
-
+}
+.jc{
+    justify-content: center;
+    display: flex;
 }
 
 header{
@@ -76,12 +79,22 @@ a, p{
     line-height: 100%;
 }
 
-
-.secound{
-    
+section{
+width: 100%;
+height: 64px;
+    background-color: #958B6D;
 }
-.secound h3{
+.secound{
+    padding:48px 67px ;
+}
+.secound .header{
+    justify-content: center;
+}
+.secound .massege{
+    justify-content: center;
+    text-align: center;
     font-size: 40px;
+    font-weight: 200;
 }
 .secound .row{
     margin-top: 200px;
@@ -106,6 +119,7 @@ background-color: var(--back-mass);
     border-radius: 90px;
     background: rgba(221, 207, 172, 0.99);
     margin-top: -65px;
+    margin-bottom: -10px;
     width: 313px;
     height: 62px;
     font-size: 24px;
