@@ -2,24 +2,29 @@
 :root{
     --brown:rgba(142, 128, 99, 0.58);
     --font-color: rgba(0, 0, 0, 1);
-    --family: Comic Jens Free Pro;
+    --family: Irish Grover;
     --size: 16px;
     --weight: 400;
     --height: 100%;
     --font-logo:Inspiration;
     --font-mass:Pacifico;
+    --back-mass: rgba(255, 252, 213, 1);
 }
 body{
     margin: 0px;
     padding: 0px;
     background: linear-gradient(134.53deg, rgba(251.32211303710938, 234.16456604003906, 182.6917724609375, 1) 41%,rgba(149.32212829589844, 139.12802124023438, 108.545654296875, 1) 100%);
 }
-.js{
+.js{    
+    justify-content: space-between;
+    display: flex;
+
+}
+
+header{
     display: flex;
     padding: 10px 14px;
     justify-content: space-between;
-}
-header{
     height: 64px;
     background-color: var(--brown);
     align-items: center;
@@ -38,7 +43,8 @@ header{
     align-items: center;
 
 }
-a{
+a, p{
+    text-decoration: none;
     color:black;
     color: rgba(0, 0, 0, 1);
     font-family: var(--font-mass);
@@ -48,18 +54,59 @@ a{
     margin-right: 30px;
 
 }
-p{
-    color: rgba(0, 0, 0, 1);
-    font-family: var(--font-mass);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
-
+.first h1{
+    font-family: var(--family);
+    font-size: 40px;
 }
-.massege{
-    padding: 15px 25px;
+.first .massege{
+    margin: 20px;
+    font-size: 24px;
+    padding: 20px 38px;
     font-family: var(--font-mass);
     border-radius: 92px;
-    background: rgba(255, 252, 213, 1);
-    width: 40%;
+    background-color:var(--back-mass);
+    width: 23%;
+}
+.first h5{
+    width: 450px;
+    color: rgba(0, 0, 0, 1);
+    font-family: var(--font-mass);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+.secound{
+    
+}
+.secound h3{
+    font-size: 40px;
+}
+.secound .row{
+    margin-top: 200px;
+}
+.secound .card{
+    flex-direction: column;
+    justify-content: center;
+     border-radius: 47px;
+width: 298px;
+height: 426px;
+overflow: hidden;
+background-color: var(--back-mass);
+}
+.secound img{
+    object-fit: contain;
+    width: auto;
+    height: 100%;;
+}
+.secound p{
+    line-height:55px;
+    text-align: center;
+    border-radius: 90px;
+    background: rgba(221, 207, 172, 0.99);
+    margin-top: -65px;
+    width: 313px;
+    height: 62px;
+    font-size: 24px;
 }
