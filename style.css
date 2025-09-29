@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Irish+Grover&family=Pacifico&display=swap');
+:root{
+    --brown:rgba(142, 128, 99, 0.58);
+    --font-color: rgba(0, 0, 0, 1);
+    --family: Comic Jens Free Pro;
+    --size: 16px;
+    --weight: 400;
+    --height: 100%;
+    --font-logo:Inspiration;
+    --font-mass:Pacifico;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(134.53deg, rgba(251.32211303710938, 234.16456604003906, 182.6917724609375, 1) 41%,rgba(149.32212829589844, 139.12802124023438, 108.545654296875, 1) 100%);
+}
+.js{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: space-between;
+}
+header{
+    height: 64px;
+    background-color: var(--brown);
+    align-items: center;
+
+}
+.logo{
+    font-family:var(--font-logo);
+    font-size: 40px;
+    font-weight: var(--weight);
+
+}
+.gr-butt{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+
+}
+a{
+    color:black;
+    color: rgba(0, 0, 0, 1);
+    font-family: var(--font-mass);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-right: 30px;
+
+}
+p{
+    color: rgba(0, 0, 0, 1);
+    font-family: var(--font-mass);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+.massege{
+    padding: 15px 25px;
+    font-family: var(--font-mass);
+    border-radius: 92px;
+    background: rgba(255, 252, 213, 1);
+    width: 40%;
+}
