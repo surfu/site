@@ -13,7 +13,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(90deg,#FBEAB7,#DCCDA0,#958B6D);
+    background: linear-gradient(-90deg,#958B6D,#EBDBAB,#FBEAB7);
 }
 .js{    
     justify-content: space-around;
@@ -82,7 +82,7 @@ a, p{
 section{
 width: 100%;
 height: 64px;
-    background-color: #9A8D6D;
+    background-color:  rgba(142, 128, 99, 0.58);;
 }
 .secound{
     padding:0px 50px 67px ;
@@ -90,7 +90,7 @@ height: 64px;
 .secound .header{
     justify-content: center;
 }
-.secound .massege{
+.secound .massege, .forth .massege{
     justify-content: center;
     text-align: center;
     font-size: 40px;
@@ -135,14 +135,43 @@ height: 64px;
 
 }
 .third .massege{
-    width: 70%;
+    width: 80%;
 }
 .third .massege p{
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 24px;
 }
 .third .massege h4{
     margin: 0px ;
     font-size: 40px;
     font-weight: 100;
+}
+.third .massege .dial{
+    margin-left: 10%;
+    width: 100%;
+}
+.forth{
+    align-items: center;
+    flex-direction: column;
+}
+.forth .fotos{
+    width: 90%;
+    border-radius: 42px;
+    background: rgba(255, 252, 213, 1);
+    padding: 8px 23px;
+}
+.forth .fotos img{
+    margin: 0 30px;
+    width: 90%;
+}
+.forth .massege .he{
+    width: 80%;
+    font-size: 20px;
+}
+.forth .massege {
+    width: 20px;
+    font-size: 40px;
+}
+.info{
+    width: 100%;
 }
