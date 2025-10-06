@@ -154,6 +154,10 @@ height: 64px;
     align-items: center;
     flex-direction: column;
 }
+.forth .massege{
+    width: 20%;
+
+}
 .forth .fotos{
     width: 90%;
     border-radius: 42px;
@@ -164,14 +168,18 @@ height: 64px;
     margin: 0 30px;
     width: 90%;
 }
-.forth .massege .he{
+.full{
+   margin-top: 20px;
+    padding: 20px 38px;
+    font-family: var(--font-mass);
+    border-radius: 92px;
+    background-color:var(--back-mass);
     width: 80%;
+}
+.full p{
     font-size: 20px;
 }
-.forth .massege {
-    width: 20px;
-    font-size: 40px;
-}
+
 .info{
     width: 100%;
 }
